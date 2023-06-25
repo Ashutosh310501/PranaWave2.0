@@ -1,0 +1,31 @@
+:root{
+    --body-color: hsl(260, 100%, 97%);
+}
+
+body {
+  background-color: var(--body-color);
+}
+#loading,
+#results {
+  display: none;
+}
+#loading {
+  width: 100%;
+}
+.card
+{
+    border:2px solid black;
+    /* box-shadow: 5px 2px 5px 5px #3a0332; */
+}
+.form-control
+{
+    font-size: 17px;
+}
+.col-form-label
+{
+    font-size: 17px;
+}
+.custom-select
+{
+    font-size: 16px;
+}
